@@ -39,3 +39,27 @@ This repository contains an **ARM template** and deployment script to provision 
 ```bash
 git clone <repo-url>
 cd <repo-folder>
+```
+
+2. Make the deployment script executable:
+```bash
+chmod u+x deploy.sh
+```
+
+3. Run the deployment script:
+```bash
+./deploy.sh
+```
+
+## Validation Process
+- The script will validate the ARM template
+- If the validation passes it will proceed to deploy all resources
+- Generates an output listing the; Public IP, Website URL, and a SSH hint
+- The script also performs a curl test on the website
+
+## Notes
+- The configured NSG only allows SSH connecitivty via my public IP, restricts/drops all other SSH traffic.
+- Port 80 HTTP traffic is allowed from the "internet"/anywhere.
+- Nginx is installed via custom script extension on the VM.
+
+
