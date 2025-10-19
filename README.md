@@ -26,7 +26,7 @@ This repository contains an **ARM template** and deployment script to provision 
 ## 💻 Prerequisites
 
 - Azure CLI installed --> A script for this has been added into the repository, once cloned please run the script after providing it execute permissions. 
-- `jq` installed for parsing JSON outputs  --> One can install jq using "sudo apt install jq"
+- `jq` installed for parsing JSON outputs  --> One can install jq using "sudo apt install jq".
 - SSH key pair ready (`~/.ssh/id_rsa.pub`)  
 - Access to your IP (for SSH in NSG)
 
