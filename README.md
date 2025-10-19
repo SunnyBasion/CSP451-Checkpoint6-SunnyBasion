@@ -4,7 +4,7 @@ This repository contains an **ARM template** and deployment script to provision 
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 - **Resource Group:** Pre-existing (e.g., `Student-RG-1879876`)  
 - **Virtual Network (VNet):** `NW-VNet`  
@@ -23,7 +23,7 @@ This repository contains an **ARM template** and deployment script to provision 
 
 ---
 
-## 💻 Prerequisites
+## Prerequisites
 
 - Azure CLI installed --> A script for this has been added into the repository, once cloned please run the script after providing it execute permissions. 
 - `jq` installed for parsing JSON outputs  --> One can install jq using "sudo apt install jq".
@@ -32,7 +32,7 @@ This repository contains an **ARM template** and deployment script to provision 
 
 ---
 
-## ⚡ Deployment Steps
+## Deployment Steps
 
 1. Clone the repository:
 
