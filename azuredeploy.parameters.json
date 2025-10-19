@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": { "value": "canadaeast" },
+    "adminUsername": { "value": "azureuser" },
+    "adminPublicKey": { "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDxJ+r8HK+/D19Ojmh0fyz2rrQz+h3hFm5Sh0rS1ACh3eakvykQvm4zr+taLuUsvzqZLyO6KxfXnEtrhIMNE7MqXC6s8Yvk00cHhIuqdDWYrm51WoLWh5WdOO+iX9hR/WFpZRC+IjwVxKtrqsv01NTFZZLDKOX1lcNq+WDDB6pcsu+1JW9XrG50LsqNJFg/AeYFI832wSmkayEpAzwRzDctoAK6Pu+fjdepUVooGniSSv2328Aud8PxeTGak8+TS6lM3BWayeXzD3CJu1iyAOXDDSIpGB6uecV1tlFhUiogicRFWNS61qbnO0mmzkMzMOlSUgcAnF/PQFpNlvySNU1+9Kd9PG5V0kZPBONMsh9gJ5huzj0qDuYgW9W6pWYCZIsEPT0AiaykQVydU1c6aDxrgS7GkBtQC9NO4+z3goIgDwA9HW/CUyA5gqy34SQ8JIMCgsfA2O41oMZC1PzgxnDZNU+WQh/+zX+jNEESKZD7/wfzhbEosFOfiebxJYTySUksTA5HTDtNbbYGcbe9qkQRSu0Dl0MXHGQX4vNoTLGPokVMXwadm70alf5pWZS4CNVyiRyjnEZFzOCqtbQlmGu90McZCA1cqYr/7Gq+aiMuW5ud/BB7RPVoADCR3FNfutX/MRZ7JT8nRTr0R9J365vivfYAJ7knelgRk7C0hf7Oyw== mbasion@Workstation" },
+    "sshAllowedSource": { "value": "99.235.136.97/32" },
+    "vmSize": { "value": "Standard_B2s" },
+    "studentName": { "value": "Sunny Basion" },
+    "studentID": { "value": "107827172" }
+  }
+}
+
