@@ -52,10 +52,10 @@ chmod u+x deploy.sh
 ```
 
 ## Validation Process
-- The script will validate the ARM template
-- If the validation passes it will proceed to deploy all resources
-- Generates an output listing the; Public IP, Website URL, and a SSH hint
-- The script also performs a curl test on the website
+- The script will validate the ARM template.
+- If the validation passes it will proceed to deploy all resources.
+- Generates an output listing the; Public IP, Website URL, and a SSH hint.
+- The script also performs a curl test on the website.
 
 ## Notes
 - The configured NSG only allows SSH connecitivty via my public IP, restricts/drops all other SSH traffic.
